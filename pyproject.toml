@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic = "^2.11.5"
+bs4 = "^0.0.2"
 
 
 [tool.poetry.group.dev.dependencies]

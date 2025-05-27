@@ -54,7 +54,7 @@ class TestWallet:
         del wallet[usd]
         assert usd not in wallet.currencies
 
-    def test_len(self, wallet):
+    def test_len_currencies(self, wallet):
         assert len(wallet) == 1
 
     def test_contains(self, wallet):

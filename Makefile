@@ -1,7 +1,7 @@
-.PHONE: pre-commit
+.PHONY: pre-commit
 pre-commit:
 	pre-commit install
 
-.PHONE: test
+.PHONY: test
 test:
 	pytest -s -v
