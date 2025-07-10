@@ -54,7 +54,7 @@ def process_bulletin_link(
     return None
 
 
-def parser_links(
+def parser_bulletin_links(
     url: str, start_date: date, end_date: date
 ) -> list[tuple[str, date]]:
     """
