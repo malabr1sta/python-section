@@ -60,10 +60,13 @@ def parser_bulletin_links(
     """
     Парсит ссылки на бюллетени с одной страницы.
 
-    :param url: базовый URL страницы
-    :param start_date: начальная дата
-    :param end_date: конечная дата
-    :return: список кортежей (ссылка, дата)
+    Args:
+        url (str): базовый URL страницы.
+        start_date (date): начальная дата.
+        end_date (date): конечная дата.
+
+    Returns:
+        list[tuple[str, date]]: список кортежей (ссылка, дата).
     """
     results = []
     html = get_html(url)
